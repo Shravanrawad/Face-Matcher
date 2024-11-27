@@ -1,41 +1,58 @@
-Face Matcher 🖼️🤝🖼️
-A sleek web application that compares two images to determine the similarity between faces. This project uses the Face++ API to detect and analyze face similarity.
+# Face Matcher 🖼️🤝🖼️
 
-✨ Features
-🔍 Compare Faces: Upload two images to compare facial similarity.
-🎯 Similarity Score: Get a percentage of how similar the faces are.
-🖼️ Image Preview: Visual display of uploaded images.
-📊 Face Attributes: Display details like face dimensions.
+A Simple sleek web application that compares two images to determine the similarity between faces. This project uses the Face++ API to detect and analyze face similarity.
 
-🛠️ Tech Stack
-⚛️ Frontend: React.js
-🌐 API: Face++ API
-🎨 Styling: Tailwind CSS
-📡 HTTP Client: Axios
-🚀 Installation
+Demo: https://face-matcher.vercel.app
 
-Follow these steps to set up and run the project locally:
+## Features
 
-Clone the repository:
+  - 🔍 Compare Faces: Upload two images to compare facial similarity.
+  - 🎯 Similarity Score: Get a percentage of how similar the faces are.
+  - 🖼️ Image Preview: Visual display of uploaded images.
+  - 📊 Face Attributes: Display details like face dimensions.
+    
 
-bash
-Copy code
-git clone https://github.com/your-username/face-matcher.git
-cd face-matcher
-Install dependencies:
+## 🛠️ Tech Stack
 
-bash
-Copy code
-npm install
-Set up environment variables: Create a .env file in the project root and add your Face++ API credentials:
+  - ⚛️ Frontend: React.js
+  - 🌐 API: Face++ API
+  - 🎨 Styling: Tailwind CSS
+  - 📡 HTTP Client: Axios
 
-env
-Copy code
-REACT_APP_FACE_API_KEY=your_api_key
-REACT_APP_FACE_API_SECRET=your_api_secret
-Run the app:
+## Contributing
 
-bash
-Copy code
-npm start
+If you’d like to contribute to this project, please follow these steps:
 
+  - Fork the repository.
+  - Create a new branch (git checkout -b feature-branch).
+  - Commit your changes (git commit -am 'Add new feature').
+  - Push to the branch (git push origin feature-branch).
+  - Create a new Pull Request.
+   
+## Installation
+
+1. **Clone the Repository:**
+   
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contact
+For any questions or support, please contact shravanrawas8@gmail.com or reach out via Crisp.
